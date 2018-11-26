@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="50dp"
+                    android:text="สถานะใบสมัคร"
+                    android:textSize="35sp" />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp">
+        <TableRow>
+
+
+            <TextView
+                android:id="@+id/TextappId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:text="เลขที่ใบสั่งซื้อ: "
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/Textstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:text="สถานะใบสั่งซื้อ: "
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+
+
+            <TextView
+                android:id="@+id/appId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:text="Username: "
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:text="Status: "
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
